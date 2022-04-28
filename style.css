@@ -1,0 +1,12 @@
+.error{
+    color: red;
+    display: none;
+}
+
+.wrong + .error{
+    display: block;
+}
+
+.wrong{
+    border: solid 1px red;
+}
